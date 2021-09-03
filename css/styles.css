@@ -17,6 +17,10 @@ body {
 .material-icons.md-30 {font-size: 30px;}
 
 /* ############ HEADER ############*/
+header {
+  background: #ffaf13;
+}
+
 .navbar-brand {
   color: #fffcbb;
   font-size: 1.5em;
@@ -44,49 +48,12 @@ body {
   border: 0;
 }
 
-.card.card-custom > .card-header {
-  border-bottom: 1px solid #EBEDF3;
-}
-
-.card-header,
-.card-body {
-  padding: 2rem 2.25rem;
-}
-
-.card.card-custom > .card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  flex-wrap: wrap;
-  min-height: 70px;
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: transparent;
-}
-
-.card-title,
-.card-label {
-  font-weight: 500;
-  font-size: 1.275rem;
-  color: #181C32;
-  display: flex;
-  align-items: center;
-  margin: .5rem .5rem .5rem 0;
-}
-
-.card-label {
-  margin: 0 0.75rem 0 0;
-  flex-wrap: wrap;
-}
-
-.card-title small {
-  color: #B5B5C3;
-  font-size: 1rem;
-}
-
-.gutter-b {margin-bottom: 25px;}
-
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
+}
+/* ############ FOOTER ############*/
+footer {
+  color: #fffcbb !important;
+  text-align:center;
 }
