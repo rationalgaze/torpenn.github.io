@@ -5,110 +5,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/styles.css"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Torpenn GUIDE</title>
 </head>
 
 <body>
-<div class="d-flex flex-column flex-root">
-  <div class="d-flex flex-row flex-column-fluid page">
-    <div id="sidebar" class="d-flex flex-row-auto flex-column">
-      <div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto vh-100">
-        <div class="brand flex-column-auto">
-          <i class="material-icons md-30 menu-icon ">sports_hockey</i>
-          <span>Brest Hockey Club</span>
-        </div>
-        <div class="aside-menu-wrapper flex-column-fluid">
-          <div class="aside-menu scroll ps ps--active-y">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Patins</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#crosses">Crosses</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contacts" class="nav-link">Contacts</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+<header class="sticky-top py-1">
+  <div class="container d-flex justify-content-between">
+    <a href="#" class="navbar-brand d-flex align-items-center"><strong>Le Torpenn Shop</strong></a>
+    <a href="#" class="navbar-brand d-flex align-items-center">
+      <img src="images/Shop_logo.png" alt="">
+    </a>
+  </div>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Shirts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Bags</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Caps</a>
+    </li>
+  </ul>
+</header>
+<main class="container">
+  <div class="row">
+    <div class="col-sm-4 col-lg-4">
+      <div class="card">
+        <img src="images/T-shirt.png" class="card-img-top" alt="..." height="420px">
       </div>
     </div>
-    <div class="d-flex flex-column flex-row-fluid wrapper">
-      <div class="header header-fixed">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center"><strong>Torpenn Guide</strong></a>
-        </div>
+
+    <div class="col-sm-4 col-lg-4">
+      <div class="card">
+        <img src="images/Bag.png" class="card-img-top" alt="..." height="420px">
       </div>
-      <div class="content d-flex flex-column flex-column-fluid container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card card-custom gutter-b">
-              <div class="card-body">
-                Bienvenue sur la page Torpenn Guide. Ce site a pur le but de vous orienter quand vous commencez le
-                hockey sur glace. Vous trouvez ici les conseils pour le choiox d'équipement, les liens pour les sites
-                qui vendent l'equipement, les contactes utiles et d'autres astuces.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card card-custom gutter-b">
-              <div class="card-header pt-6">
-                <div class="card-title">
-                  <h3 id="crosses" class="card-label">Crosses</h3>
-                </div>
-              </div>
-              <div class="card-body">
-                <ul>
-                  <li>Comment choisir ma crosse ?</li>
-                  <li> Comment definir si je suis gaucher ou droitier ?</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card card-custom gutter-b">
-              <div class="card-header pt-6">
-                <div class="card-title">
-                  <h3 id="contacts" class="card-label"> Contacts </h3>
-                </div>
-              </div>
-              <div class="card-body">
-                <ul>
-                  <li>Isabelle Mer</li>
-                  <li>Kiki Cleach</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+
+    <div class="col-sm-4 col-lg-4">
+      <div class="card">
+        <img src="images/T-shirt_white.png" class="card-img-top" alt="..." height="420px">
       </div>
     </div>
   </div>
-</div>
-
-<!-- jQuery CDN - Slim version (=without AJAX) -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+</main>
+<footer>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
-<!-- Popper.JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
         crossorigin="anonymous"></script>
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
         crossorigin="anonymous"></script>
 </body>
 </html>
